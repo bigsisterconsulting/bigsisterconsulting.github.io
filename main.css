@@ -1,0 +1,219 @@
+.navbar-nav{
+  font-size: 25px !important;
+}
+.navbar-custom {
+    background-color: #FE7F9C;
+    width:100%;
+    height: 70px;
+
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #000000;
+}
+
+
+
+.nav-item a {
+      font-family: 'Hind', sans-serif !important;
+    color: white !important;
+}
+
+body {
+  background-color: #EEE2DC;
+	overflow-x: hidden;
+}
+
+.home-inner{
+  background-image: url('HomeImage.jpg');
+}
+
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 40%;
+  z-index: 1;
+
+}
+
+.caption h1{
+  font-size: 5.2rem;
+  padding-bottom: 2rem;
+  font-weight: bolder;
+  font-family: 'Hind', sans-serif !important;
+  color: '#26466D';
+  #FFB6C1
+  #26466D
+}
+
+.caption p {
+  font-size: 2.5rem;
+
+    color: #ee848e;
+  font-weight: bold;
+    font-family: 'Hind', sans-serif !important;
+    font-style:italic;
+
+}
+
+
+
+/*--- iOS Landing Page Fix --*/
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  background: #E9ECEF;
+  z-index: -1;
+}
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.home-inner {
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+#picService{
+  color: white;
+  background-image: url('Services2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+
+
+
+}
+
+#service{
+  color: black;
+  padding: 10%;
+
+
+
+}
+
+
+
+
+.jumbotron {
+  color: white;
+  background-image: url('About2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+.display-4{
+  text-align: center;
+  font-weight:normal;
+  font-family: 'Hind', sans-serif !important;
+  color: #ee848e;
+  font-size: 3.5rem;
+
+}
+
+.jumbotron p {
+  color: black;
+  text-align: center;
+ color: black;
+ font-size: 2rem;
+ font-style: italic;
+
+}
+html,body {
+  padding:0;
+  margin:0;
+  height:100%;
+  min-height:100%;
+ }
+
+ .card-body{
+   background-color: #EEE2DC;
+
+ }
+
+.quarter{
+  width:50%;
+  height:100%;
+  float:left;
+}
+.contents{
+  height:50%;
+  width:100%;
+}
+
+
+
+h1{
+  text-align: center;
+}
+
+.desc{
+  background-color: #f2f2f2;
+  height: 100px;
+  color: white;
+  font-size: 40px;
+}
+img {
+height: 30rem;
+width: 30rem;
+}
+
+.para1, .para2, .para3{
+  font-family: 'Hind', sans-serif !important;
+font-size: 1.2rem;
+
+}
+.aboutco{
+  font-family: 'Hind', sans-serif !important;
+font-size: 1.2rem;
+}
+
+
+
+.card-title {
+    font-family: 'Hind', sans-serif !important;
+  font-size: 2rem;
+
+}
+.card-text{
+      font-family: 'Hind', sans-serif !important;
+      font-size: 1.25rem;
+
+}
+
+.about{
+  font-size: calc(1.375rem + 1.5vw);
+    color: #7878e7;
+    padding: 10px;
+  font-family: 'Hind', sans-serif !important;
+}
+
+.list-group{
+    font-family: 'Hind', sans-serif !important;
+
+color: #7878e7 !important;
+
+}
